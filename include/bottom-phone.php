@@ -1,0 +1,2 @@
+<!--a href="tel:88007007575" class="phone-link">8 (800) 700-75-75</a> <!-- при необходимости добавить href="tel:номер телефона формата +79009009090" -->
+<!--p style="font-size: 12px; color: #313131; font-weight: bold; margin-top: 5px;">Ежедневно с 7:00 до 24:00</p-->

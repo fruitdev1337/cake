@@ -1,0 +1,32 @@
+<?
+$MESS ['FORM_REQUIRED_FIELDS'] = "Поля, обязательные для заполнения";
+$MESS ['FORM_APPLY'] = "Применить";
+$MESS ['FORM_ADD'] = "Добавить";
+$MESS ['FORM_ACCESS_DENIED'] = "Не хватает прав доступа к веб-форме.";
+$MESS ['FORM_DATA_SAVED1'] = "Спасибо!<br><br>Ваша заявка №";
+$MESS ['FORM_DATA_SAVED2'] = " принята к рассмотрению.";
+$MESS ['FORM_MODULE_NOT_INSTALLED'] = "Модуль веб-форм не установлен.";
+$MESS ['FORM_NOT_FOUND'] = "Веб-форма не найдена.";
+$MESS ["FORM_MESSAGE_ERROR"] = "Что-то пошло не так";
+$MESS ["FORM_MESSAGE_OK"] = "Спасибо";
+$MESS ["FORM_MESSAGE_TEXT"] = "Ваш запрос отправлен. Мы свяжемся с вами в ближайшее время.";
+$MESS ["FORM_CAPTCHA_PROMPT"] = "Введите слово с картинки";
+$MESS ["FORM_CAPTCHA_PLACEHOLDER"] = "Cлово с картинки*";
+$MESS ["FORM_CONFIGURATOR_TITLE"] = "Конфигуратор сервера";
+$MESS ["FORM_BLOCK_VIDEOCARD_SELECTED"] = "Выбрано";
+$MESS ["FORM_BLOCK_VIDEOCARD_PRICE"] = "сутки";
+$MESS ["FORM_BLOCK_VIDEOCARD_DESC_AMD_RX470"] = "RX470 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts";
+$MESS ["FORM_BLOCK_VIDEOCARD_DESC_AMD_RX570"] = "RX570 Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts";
+$MESS ["FORM_BLOCK_VIDEOCARD_DESC_NVIDIA_1080TI"] = "1080TI Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts";
+$MESS ["FORM_BLOCK_SECTIONS_DESC"] = "Для карт AMD возможно использование секций до 12 штук по выбору клиента.  Выберите желаемое количество";
+$MESS ["FORM_BLOCK_SUM_TEXT"] = "Стоимость аренды сконфигурированного сервера в месяц составит:";
+$MESS ["FORM_BLOCK_AMDROCM_DESC"] = "Поддержка AMD ROCm";
+$MESS ["FORM_BLOCK_AMDROCM_YES"] = "Да";
+$MESS ["FORM_BLOCK_AMDROCM_NO"] = "Нет";
+$MESS ["FORM_BLOCK_EMAIL_TITLE"] = "Получить КП на e-mail";
+$MESS ["FORM_BLOCK_EMAIL_DESC"] = "We'll never share your email address and you can opt out at any time, we promise";
+$MESS ["FORM_SUBMIT_TEXT"] = "Запросить КП";
+$MESS ['MFT_FEEDBACK_FAIL_TITLE'] = "OOPS!";
+$MESS ['MFT_FEEDBACK_SUCCESS_TITLE'] = "Thank you for Your request!";
+$MESS ['MFT_FEEDBACK_SUCCESS_TEXT'] = "Our specialist will contact You in the near future to discuss cooperation.";
+?>

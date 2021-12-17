@@ -1,0 +1,235 @@
+.main_banner {
+	display: block;
+	position: relative;
+	max-width: 1170px;
+	margin: auto;
+	width: 100%;
+	height: 400px;
+	margin-bottom: 15px;
+}
+.main_banner .owl-stage-outer {
+	box-shadow: 0 2px 4px 0 rgba(210, 210, 210, 0.5);
+}
+
+.main_banner picture {
+	height: 400px;
+	position: relative;
+	display: block;
+	overflow: hidden
+}
+
+.main_banner picture img {
+	max-width: none;
+	width: 1170px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	display: block !important;
+	margin: 0 0 0 -585px;
+	transform: scale(1.03);
+	transition: transform .3s ease-out;
+}
+.main_banner .banner_item:hover img {
+	transform: scale(1);
+}
+
+.main_banner .banner_image_wrapper div {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.main_banner_slider .owl-dots {
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 20px;
+	z-index: 50;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*NEW-------------------*/
+
+@media all and (max-width: 1140px) {
+	.main_banner picture img {
+		width: 1140px;
+		margin: 0 0 0 -570px;
+	}
+	.main_banner picture, .main_banner, .main_banner picture img {
+		height: 387px;
+	}
+}
+
+@media all and (max-width: 1024px) {
+	.main_banner picture img {
+		width: 768px;
+		margin: 0 0 0 -384px;
+	}
+	.main_banner picture, .main_banner picture img {
+		height: 360px;
+	}
+	.main_banner {
+		height: 420px;
+	}
+	.main_banner_slider ul.slick-dots {
+		bottom: 5px;
+	}
+	.main_banner .owl-carousel {
+		padding-bottom: 35px;
+		margin-bottom: 0;
+	}
+	.main_banner .owl-carousel .owl-dots, .main_banner .owl-nav.disabled + .owl-dots {
+		bottom: 0;
+		margin: 0;
+	}
+}
+
+@media all and (max-width: 728px) {
+	.main_banner picture img {
+		width: 728px;
+		height: 341px;
+		margin: 0 0 0 -364px;
+	}
+	.main_banner picture {
+		height: 341px;
+	}
+	.main_banner {
+		height: 401px;
+	}
+}
+@media all and (max-width: 688px) {
+	.main_banner picture img {
+		width: 688px;
+		margin: 0 0 0 -344px;
+	}
+	.main_banner picture, .main_banner picture img {
+		height: 323px;
+	}
+	.main_banner {
+		height: 383px;
+	}
+}
+
+@media all and (max-width: 640px) {
+	.main_banner picture img {
+		width: 640px;
+		height: 300px;
+		margin: 0 0 0 -320px;
+	}
+	.main_banner picture {
+		height: 300px;
+	}
+	.main_banner {
+		height: 360px;
+	}
+}
+@media all and (max-width: 600px) {
+	.main_banner picture img {
+		width: 600px;
+		margin: 0 0 0 -300px;
+	}
+	.main_banner picture, .main_banner picture img {
+		height: 281px;
+	}
+	.main_banner {
+		height: 341px;
+	}
+}
+@media all and (max-width: 560px) {
+	.main_banner picture img {
+		width: 560px;
+		height: 263px;
+		margin: 0 0 0 -280px;
+	}
+	.main_banner picture {
+		height: 263px;
+	}
+	.main_banner {
+		height: 323px;
+	}
+}
+@media all and (max-width: 520px) {
+	.main_banner picture img {
+		width: 520px;
+		margin: 0 0 0 -260px;
+	}
+	.main_banner picture, .main_banner picture img {
+		height: 244px;
+	}
+	.main_banner {
+		height: 304px;
+	}
+}
+@media all and (max-width: 480px) {
+	.main_banner picture img {
+		width: 480px;
+		height: 225px;
+		margin: 0 0 0 -240px;
+	}
+	.main_banner picture {
+		height: 225px;
+	}
+	.main_banner {
+		height: 285px;
+	}
+}
+@media all and (max-width: 440px) {
+	.main_banner picture img {
+		width: 440px;
+		margin: 0 0 0 -220px;
+	}
+	.main_banner picture, .main_banner picture img {
+		height: 206px;
+	}
+	.main_banner {
+		height: 266px;
+	}
+}
+@media all and (max-width: 400px) {
+	.main_banner picture img {
+		width: 400px;
+		height: 188px;
+		margin: 0 0 0 -200px;
+	}
+	.main_banner picture {
+		height: 188px;
+	}
+	.main_banner {
+		height: 248px;
+	}
+}
+@media all and (max-width: 360px) {
+	.main_banner picture img {
+		width: 360px;
+		margin: 0 0 0 -180px;
+	}
+	.main_banner picture, .main_banner picture img {
+		height: 169px;
+	}
+	.main_banner {
+		height: 229px;
+	}
+}
+@media all and (max-width: 320px) {
+	.main_banner picture img {
+		width: 320px;
+		height: 150px;
+		margin: 0 0 0 -160px;
+	}
+	.main_banner picture {
+		height: 150px;
+	}
+	.main_banner {
+		height: 210px;
+	}
+}

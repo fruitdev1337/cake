@@ -1,0 +1,20 @@
+#sale_prediction .catalog-element-popup-info {
+	font-size: 12px;
+	border: 2px solid #ff9999;
+	display: block;
+	padding: 10px 15px;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+#sale_prediction .catalog-element-popup-info a {
+	font-weight: 500;
+}
+#sale_prediction .catalog-element-popup-info a:active {
+	color: #AB6E82;
+}
+
+.catalog-element-popup-element {
+	color: red;
+	font-weight: 500;
+	font-size: 13px;
+}

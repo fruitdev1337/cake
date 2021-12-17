@@ -1,0 +1,1 @@
+<a href="<?=SITE_DIR?>catalog/tort/"><img alt="под слайдером-2-2.jpg" src="/upload/medialibrary/f51/bf22ny8k6hu2jrt5yic566uwh4d1x9n7.jpg" title="под слайдером-2-2.jpg"></a>

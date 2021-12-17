@@ -1,0 +1,3 @@
+<?
+$MESS["CT_BCI_TPL_MESS_PRICE_SIMPLE_MODE"] = "РІС–Рґ #PRICE# Р·Р° #VALUE# #UNIT#";
+?>

@@ -1,0 +1,85 @@
+
+.catalog__filter ul#vertical-multilevel-menu,
+.catalog__filter #vertical-multilevel-menu ul {
+	width: 100%;
+	font-size: 14px;
+}
+
+.catalog__filter ul#vertical-multilevel-menu li a,
+.catalog__filter ul#vertical-multilevel-menu li ul.section__list-sub li a {
+	display: block;
+	font-weight: 100;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.catalog__filter ul#vertical-multilevel-menu li a {
+}
+.catalog__filter ul#vertical-multilevel-menu li ul.section__list-sub li a {
+}
+
+.catalog__filter ul#vertical-multilevel-menu li ul.section__list-sub li a {
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
+}
+
+.catalog__filter ul#vertical-multilevel-menu li.section__list-item {
+	position: relative;
+}
+
+.catalog__filter ul#vertical-multilevel-menu li.parent {
+}
+
+.catalog__filter ul#vertical-multilevel-menu li.root-item-selected a.root-item-parent-link,
+.catalog__filter ul#vertical-multilevel-menu li.root-item-selected a.root-item-link,
+.catalog__filter ul#vertical-multilevel-menu li.sub-item-selected a.sub-item-link {
+	font-weight: 900;
+	/*color: #600B3F;*/
+}
+
+.catalog__filter ul#vertical-multilevel-menu li:not(.root-item-selected) a:hover {
+	color: #600B3F;
+}
+
+.catalog__filter ul#vertical-multilevel-menu li ul.section__list-sub {
+	position: relative;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+	width: 100%;
+	margin: 0;
+	border: none;
+	display: block;
+	-webkit-transition: max-height .3s ease-in-out;
+	transition: max-height .3s ease-in-out;
+}
+
+.catalog__filter ul#vertical-multilevel-menu li.item-selected ul.section__list-sub {
+	max-height: 700px;
+	-webkit-transition: max-height .5s ease-in-out;
+	transition: max-height .5s ease-in-out;
+}
+
+.catalog__filter ul#vertical-multilevel-menu li.item-selected ul.section__list-sub,
+.catalog__filter ul#vertical-multilevel-menu li ul.section__list-sub li {
+	/*border: 1px solid transparent;*/
+	/*-webkit-transition: .2s ease-out;*/
+	/*transition: .2s ease-out;*/
+}
+
+.catalog__filter ul#vertical-multilevel-menu li ul.section__list-sub li:hover a {
+	color: #80b266;
+}
+
+.catalog__filter ul#vertical-multilevel-menu ul li.sub-item-selected {
+	/*background-color: #600B3F;*/
+}
+
+.catalog__filter ul#vertical-multilevel-menu li .elem-count {
+	color: #939393;
+}
+
+.catalog__filter ul#vertical-multilevel-menu ul li.sub-item-selected a, .catalog__filter ul#vertical-multilevel-menu ul li.sub-item-selected:hover a,
+.catalog__filter ul#vertical-multilevel-menu li .elem-count {
+	/*color: #fff !important;*/
+}

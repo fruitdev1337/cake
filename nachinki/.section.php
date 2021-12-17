@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Начинки";
+$arDirProperties = Array(
+
+);
+?>

@@ -1,0 +1,134 @@
+.stores .nav-tabs {
+	width: 100%;
+	height: 100%;
+	align-items: baseline;
+	margin-right: -15px;
+	padding-right: 15px;
+	border-bottom: 0;
+}
+#storesTabList {
+	max-height: 562px;
+}
+.stores .tab-content, .stores .tab-content .tab-pane, .stores .tab-content .tab_box {
+	height: 560px;
+}
+.stores .nav-tabs .nav-item {
+	display: block;
+	margin: 0;
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #f0f0f0;
+}
+.stores .nav-tabs .nav-item:last-child {
+	margin-bottom: 0;
+}
+.stores .nav-tabs .nav-link {
+	display: block;
+	width: 100%;
+	text-align: left;
+	font-weight: normal;
+	padding: 15px 20px;
+	border: 1px solid transparent;
+	border-radius: 0;
+	line-height: 1.5;
+	background-color: #fff;
+	box-shadow: 0 2px 2px rgba(0,0,0,.05);
+	color: #000;
+}
+.stores .nav-tabs .nav-link.active {
+	border-color: #600B3F;
+	box-shadow: none;
+	color: #000;
+}
+.catalog-stores-item-title {
+}
+.catalog-stores-item-name {
+	font-size: 14px;
+	font-weight: bold;
+}
+.catalog-stores-item-address, .catalog-stores-item-info {
+	font-size: 12px;
+}
+.stores .bx-yandex-map, .stores .ymaps-map, .bx-yandex-view-layout, .bx-yandex-view-map {
+	width: 100% !important;
+	height: 100% !important;
+}
+.show {
+	opacity: 1;
+}
+@media all and (max-width: 991.98px) {
+	#storesTabContent .tab-pane {
+		opacity: 1;
+		z-index: 0;
+		position: relative;
+		border: 1px solid #f0f0f0;
+		background-color: #fff;
+		box-shadow: 0 2px 2px rgba(0,0,0,.05);
+		margin-bottom: 15px;
+		padding: 0 15px;
+	}
+	#storesTabContent .tab-pane .tab_box {
+		padding-bottom: 15px;
+	}
+	.stores .tab-content, .stores .tab-content .tab-pane, .stores .tab-content .tab_box {
+		height: auto;
+		border: none;
+		box-shadow: none;
+		background: transparent;
+	}
+	.stores .bx-yandex-view-layout, .stores .bx-yandex-view-map {
+		height: 350px !important;
+	}
+	.stores .tab-content > .tab-pane .title {
+		width: 100%;
+		position: relative;
+		text-align: left;
+		padding: 10px 0;
+	}
+	.stores .tab-content > .tab-pane .title .fa {
+		font-size: 24px;
+		font-weight: bold;
+		position: absolute;
+		width: 30px;
+		height: 30px;
+		right: -9px;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		text-align: center;
+	}
+	.stores .tab-content > .tab-pane .title .fa-angle-up:before {
+		content: "\f106";
+	}
+	.stores .tab-content > .tab-pane .title.collapsed .fa-angle-up:before {
+		content: "\f107";
+	}
+}
+@media screen and (max-width:575.98px)  {
+	.stores .tab-content > .tab-pane .title, .recom_tab .title, .slider_box .title h2 {
+		display: block;
+		font-size: 20px;
+		padding: 10px 70px 15px 0;
+		position: relative;
+		font-weight: bold;
+		background: none;
+	}
+	.stores .tab-content > .tab-pane, .recom_tab {
+		display: block;
+		padding: 0;
+		min-height: 100%;
+		width: 100%;
+	}
+
+	.stores .row {
+		flex-direction: column;
+	}
+	.stores .nav-tabs{
+		display: block !important;
+		padding-right: 0 !important;
+	}
+	#storesTabList{
+		max-height: unset !important;
+		margin-bottom: 20px;
+	}
+}

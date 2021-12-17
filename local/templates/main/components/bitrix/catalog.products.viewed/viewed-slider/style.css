@@ -1,0 +1,167 @@
+.catalog-products-viewed-header{
+	font-size:14px;
+	font-weight: bold;
+	text-align: left;
+	margin:5px 0;
+	padding:5px 15px;
+	border-bottom: 2px solid #d9dee6;
+	color: #000;
+}
+
+.row::before {
+	display: initial;
+}
+
+.slider-viewed .product_item .product_card-flags, .slider-viewed .product-item-container .product_item .to_favorites, .slider-viewed .product-item-label-ring, .slider-viewed .btn-block-col {
+	display: none;
+}
+.slider-viewed .fast_view {
+	padding: 0;
+	height: 32px;
+	font-size: 10px;
+}
+.product-detail-viewed-slider {
+	margin-top: 30px;
+}
+.product-detail-viewed-slider .slider_wrapper h2 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.slider-viewed .product_item_title {
+	font-size: 12px;
+	height: 50px;
+}
+
+.slider-viewed .product_item__cart .basket_icon span {
+	display: none;
+}
+
+.slider-viewed .product_item__cart .basket_icon .img_basket {
+	display: block;
+	margin: 0;
+}
+.slider-viewed .product-item-image-wrapper {
+	padding-top: 100%;
+}
+.slider-viewed .product_item {
+	padding: 8px;
+}
+
+.slider-viewed .owl-carousel .owl-nav button.owl-prev, .slider-viewed .owl-carousel .owl-nav button.owl-next {
+	top: calc(50% - 15px);
+}
+.slider-viewed .owl-carousel .owl-nav button span:before {
+	font-size: 20px;
+}
+.product-detail-viewed-slider .btn-primary, .product-detail-viewed-slider .btn-not-avaliable {
+	width: auto;
+}
+
+
+@media (max-width: 1300px) {
+
+	.product-item-amount-field-container {
+		position: relative;
+		padding-right: 29px;
+		justify-content: flex-end;
+	}
+	.product-item-amount-field-btn-plus, .product-item-amount-field-btn-minus {
+		min-width: 30px;
+		height: 18px;
+		position: absolute;
+		right: 0;
+	}
+	.product-item-amount-field-btn-minus {
+		border-radius: 0 0 3px 0;
+		bottom: 0;
+	}
+	.product-item-amount-field-btn-plus {
+		border-radius: 0 3px 0 0;
+		top: 0;
+	}
+	.product-item-amount-field-btn-plus:after, .product-item-amount-field-btn-minus:after {
+		line-height: 17px;
+		font-family: FontAwesome;
+		background: none;
+	}
+	.product-item-amount-field-btn-minus:after {
+		content: '\f107';
+	}
+	.product-item-amount-field-btn-plus:after {
+		content: '\f106';
+	}
+	.product-item-amount-field-container .count_input {
+		margin: 0;
+		border-radius: 3px 0 0 3px;
+	}
+
+	.catalog-products-viewed-container .product_item__cart .basket_icon span {
+		display: block;
+	}
+	.catalog-products-viewed-container .product_item__price .price-unit {
+		display: inline;
+		margin-left: 3px;
+	}
+}
+@media (max-width: 767.98px) {
+	.product-item-amount-field-container {
+		padding-right: 0;
+	}
+	.product-item-amount-field-btn-plus, .product-item-amount-field-btn-minus {
+		position: relative;
+		display: inline-block;
+		min-width: 32px;
+		height: 32px;
+		border-radius: 3px;
+	}
+	.product-item-amount-field-container .count_input {
+		margin: 0 5px;
+		border-radius: 3px;
+	}
+
+	.product-item-amount-field-btn-minus:after {
+		background: url(images/minus.svg) no-repeat center;
+		background-size: 10px;
+		content: '';
+	}
+	.product-item-amount-field-btn-plus:after {
+		background: url(images/plus.svg) no-repeat center;
+		background-size: 10px;
+		content: '';
+	}
+	.product-item-label-ring.product-item-label-small,
+	.product-item-scalable-card.hover .product-item-label-ring.product-item-label-small {
+		width: 36px;
+		height: 36px;
+		font-size: 11px;
+		line-height: 36px;
+	}
+
+	.product-item-big-card .product-item-label-ring.product-item-label-small,
+	.product-item-label-ring.product-item-label-big,
+	.product-item-scalable-card.hover .product-item-label-ring.product-item-label-big {
+		width: 36px;
+		height: 36px;
+		font-size: 11px;
+		line-height: 36px;
+	}
+
+	.product-item-big-card .product-item-label-ring.product-item-label-big {
+		width: 70px;
+		height: 70px;
+		font-size: 24px;
+		line-height: 70px;
+	}
+	.product-detail-viewed-slider .btn-primary, .product-detail-viewed-slider .btn-not-avaliable {
+		width: 100%;
+	}
+	.slider-viewed .product_item__cart .basket_icon .img_basket, .slider-viewed .product_item__cart .basket_icon span {
+		display: inline-block;
+	}
+	.slider-viewed .product_item__cart .basket_icon .img_basket {
+		margin-top: -3px;
+		margin-right: 5px;
+	}
+}

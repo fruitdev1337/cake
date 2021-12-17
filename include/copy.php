@@ -1,0 +1,1 @@
+«Cakeaway. Your sweetest marketplace»
