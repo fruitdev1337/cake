@@ -1,0 +1,25 @@
+<?
+$MESS['PROFILE_DATA_SAVED'] = "Изменения сохранены";
+$MESS['LAST_UPDATE'] = "Дата обновления:";
+$MESS['ACTIVE'] = "Активен:";
+$MESS['NAME'] = "Имя:";
+$MESS['LAST_NAME'] = "Фамилия:";
+$MESS['SECOND_NAME'] = "Отчество:";
+$MESS['PERSONAL_BIRTHDAY'] = "Дата рождения:";
+$MESS['EMAIL'] = "E-Mail:";
+$MESS['MAIN_RESET'] = "Отмена";
+$MESS['LOGIN'] = "Логин (мин. 3 символа):";
+$MESS['NEW_PASSWORD'] = "Новый пароль (мин. 6 символов):";
+$MESS['NEW_PASSWORD_CONFIRM'] = "Подтверждение нового пароля:";
+$MESS['SAVE'] = "Сохранить изменения";
+$MESS['RESET'] = "Сбросить";
+$MESS['LAST_LOGIN'] = "Последняя авторизация:";
+$MESS['NEW_PASSWORD_REQ'] = "Новый пароль:";
+$MESS["SPS_CHAIN_PRIVATE"] = "Профиль";
+$MESS["SPS_TITLE_PRIVATE"] = "Профиль";
+$MESS["K_SEX"] = "Пол:";
+$MESS["K_MALE"] = "Мужской";
+$MESS["K_FEMALE"] = "Женский";
+$MESS["K_TITLE"] = "Результаты поиска";
+$MESS["K_TITLE_CHAIN"] = "Результаты поиска";
+$MESS["K_SORT"] = "Сортировать по:";

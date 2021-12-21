@@ -1,0 +1,61 @@
+.search-title-button{ }
+
+.title-search-result{
+	border: 1px solid #c6c6c6;
+	display: none;
+	overflow: hidden;
+	z-index: 2050;
+	background-color: #fff;
+	border-radius: 3px;
+}
+
+.title-search-result .bx_item_block{
+	font-size: 14px;
+	padding: 5px 15px;
+	border-bottom:1px solid #ddd;
+	display: flex;
+	align-items: center;
+}
+.title-search-result .others_result, .title-search-result .all_result {
+	padding: 10px 15px;
+}
+
+.title-search-result .bx_img_element, .title-search-result .bx_image {
+	width: 50px;
+	height: 50px;
+}
+.title-search-result .bx_image {
+	background-size: contain;
+	background-position: 50%;
+	background-repeat: no-repeat;
+}
+.title-search-result .bx_item_element {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
+	overflow: hidden;
+}
+.title-search-result .bx_item_price {
+	font-weight: bold;
+	font-size: 13px;
+}
+.title-search-result .bx_item_price .old {
+	font-weight: normal;
+	position: relative;
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 5px;
+}
+.title-search-result .bx_item_price .bx_price{
+	display: inline-block;
+}
+.title-search-result .all_result {
+	border: none;
+	padding: 0;
+	text-align: center;
+}
+.title-search-result .all_result_title {
+	display: block;
+	width: 100%;
+	border-radius: 0;
+}

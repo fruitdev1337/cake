@@ -1,0 +1,6 @@
+<?
+$sSectionName = "Кондитерские";
+$arDirProperties = Array(
+
+);
+?>

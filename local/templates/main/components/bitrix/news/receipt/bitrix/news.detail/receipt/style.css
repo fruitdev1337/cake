@@ -1,0 +1,55 @@
+.receipt-detail-content {
+	line-height: 1.8;
+}
+.receipt-detail-image {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.news-detail-title.title_box {
+	margin: 0;
+	padding-top: 0;
+}
+.receipt-time, .receipt-person {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.receipt-time span, .receipt-person span {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14px;
+	font-weight: 500;
+	color: #8c8c8c;
+}
+
+.receipt-time-icon, .receipt-person-icon {
+	width: 25px;
+	height: 25px;
+	opacity: .7;
+	background-size: 23px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.receipt-time-icon { background-image: url(images/clock.svg); }
+.receipt-person-icon { background-image: url(images/food.svg); }
+
+.receipt-detail-bottom {
+	border-top: solid 1px #d6d5d5;
+	margin-top: 25px;
+	padding-top: 15px;
+}
+.receipt-bottom-title {
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.receipt-ingredients, .receipt-instruction {
+	margin-bottom: 20px;
+}
+.receipt-detail-image-wrapper {
+	border: 1px solid #e2e2e2;
+	box-shadow: 0 0 5px 0 rgba(210, 210, 210, 0.5);
+}

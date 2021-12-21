@@ -1,0 +1,26 @@
+@media (max-width: 992px)
+{
+	.sale-personal-section-index-block {
+		height: auto;
+		margin: 8px 0;
+	}
+}
+
+.sale-personal-section-index-block.bx-theme-green{
+	background: url(images/wt_green.png) center top;
+}
+.sale-personal-section-index-block.bx-theme-blue{
+	background: url(images/wt_blue.png) center top;
+}
+.sale-personal-section-index-block.bx-theme-red{
+	background: url(images/wt_red.png) center top;
+}
+.sale-personal-section-index-block.bx-theme-yellow{
+	background: url(images/wt_yellow.png) center top;
+}
+.sale-personal-section-index-block.bx-theme-black{
+	background: url(images/wt_black.png) center top;
+}
+.sale-personal-section-index-block:hover{
+	opacity: 1;
+}
